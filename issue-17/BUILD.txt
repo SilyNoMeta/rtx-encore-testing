@@ -1,0 +1,14 @@
+version=1.0.0-beta.3+issues14-17-reflex-r1
+source_commit=1f3c54238956167aa6cf536fbfbe352491a17ab7
+ci_run=38071290561
+ci_platform=windows-2022,MSVC-2022,x64,Release
+NR_OPEN=ON
+configuration=existing-user-config-preserved; verbose-runtime-support-profile-included
+scope=Cyberpunk-Reflex-startup-candidate; Witcher3-NR-creation-error-remains-unresolved
+in_game_validation=pending
+validation=Windows-build-and-12-automated-tests-passed
+DLL_name=rtx-encore.dll
+DLL_bytes=93281280
+DLL_sha256=32649b2fd2a0a9d28d17dad8469511c031bd43ed378551299b931ea105751e25
+Streamline_headers=v2.12.0
+Vulkan_headers=v1.4.363
