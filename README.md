@@ -1,8 +1,8 @@
 # RTX Encore test builds
 
-Private test builds for invited testers. They are **not releases**: a test build can be unstable, log more than usual,
-or leave a feature out on purpose to narrow a problem down. Please don't share them; releases are published at
-[SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore).
+Test builds for specific bug reports. They are **not releases**: a test build can be unstable, log more than usual,
+or leave a feature out on purpose to narrow a problem down. Use one only when an issue asks you to; otherwise use the
+releases at [SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore/releases).
 
 ## Builds
 
