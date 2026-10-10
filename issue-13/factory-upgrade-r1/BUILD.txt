@@ -1,0 +1,21 @@
+Version: 1.0.0-beta.2+issue13-factory-upgrade-r1
+Built from fc4be8fe3ee4c4630811c82d9179c120a5e4df43 by run 38023042553
+Runner: windows-2022, Release x64
+Open NR: ON
+Streamline headers: v2.12.0
+Vulkan-Headers: v1.4.363
+Official glslang: 16.6.0, SHA-256 checked by CI
+
+CI validation (2026-10-10):
+- menu_streamline_upgrade: PASS (legacy mismatch witnessed, 9 upgrade calls).
+- menu_d3d11_warp: PASS (CPU WARP context preservation, TEST presentation and resize).
+- 2/2 selected tests passed. No game was run on the CI runner.
+
+Package validation:
+- ZIP integrity and SHA-256 verified against CI publication.
+- Both DLLs are PE32+ x64; exact version found as ASCII and UTF-16LE.
+- Matching PDB identities verified; symbols retained privately.
+- rtx-encore.dll: 93109248 bytes, SizeOfImage=0x5aab000.
+- version.dll: 92865024 bytes, SizeOfImage=0x5a6e000.
+
+Starfield / tester validation: pending. This is an experimental candidate.

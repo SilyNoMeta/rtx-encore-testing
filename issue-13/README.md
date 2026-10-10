@@ -1,6 +1,12 @@
 # Issue #13: Starfield crash when turning Frame Generation on
 
-[Issue #13](https://github.com/SilyNoMeta/rtx-encore/issues/13). Two builds of the same code, to compare:
+**Current candidate: [factory-upgrade-r1 — download and one-session instructions](factory-upgrade-r1/README.md).**
+
+Use that candidate for the next test. It keeps the menu enabled and adds detailed diagnostics. Send the entire log folder and the configuration, whether it works or crashes.
+
+## Previous comparison builds (already tested)
+
+These files are retained as the record of the previous comparison for [issue #13](https://github.com/SilyNoMeta/rtx-encore/issues/13). There is no need to test them again.
 
 | Build | What differs from 1.0.0-beta.2 |
 | :--- | :--- |
@@ -10,17 +16,6 @@
 Both builds log extra lines each time the game creates its swap chain, and release the game's back buffers held by
 the FPS/multiplier overlay before a new swap chain is created for the same window.
 
-## What to test
+The tester reported working FG with `no-menu` and a startup crash with `diagnostics`, both installed as `version.dll`.
 
-Use `version.dll` from each zip, with BetterConsole and your other mods as usual.
-
-1. **`no-menu`:** start the game and turn Frame Generation on (or load with it already on). Does it still crash?
-   The log says `disabled by build` for the menu.
-2. **`diagnostics`:** do the same. Does it still crash?
-
-In both cases, send the `rtx-encore-logs` folder, crash or not: the new lines start with `[SWAPCHAIN]` and, in
-`diagnostics` only, `MFG_PROXY_UI swapchain proxy`.
-
-Then put your usual file back (`d3d12.dll` works in the meantime).
-
-`BUILD.txt` names the commit and the CI run of these builds, and `SHA256SUMS` their checksums.
+The `BUILD.txt` and `SHA256SUMS` in this directory identify those **previous** builds. The current candidate has its own files in `factory-upgrade-r1/`.

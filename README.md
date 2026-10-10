@@ -8,14 +8,14 @@ releases at [SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore/rel
 
 | Folder | For | Builds |
 | :--- | :--- | :--- |
-| [`issue-13`](issue-13) | [Starfield crash when turning Frame Generation on](https://github.com/SilyNoMeta/rtx-encore/issues/13) | `diagnostics`, `no-menu` |
+| [`issue-13`](issue-13) | [Starfield crash when turning Frame Generation on](https://github.com/SilyNoMeta/rtx-encore/issues/13) | `factory-upgrade-r1` (current); `diagnostics`, `no-menu` (previous) |
 
 ## Installing a test build
 
 1. Keep a copy of the RTX Encore file you use now, to put it back afterwards.
 2. Open the build's `.zip` here on GitHub and use **Download raw file** (the download button at the top right of the
    file).
-3. Extract it. Each zip holds `rtx-encore.dll` and `version.dll`: use the one you normally use, under the same name.
+3. Extract it. Follow the issue folder's instructions for which DLL to install and which diagnostics to enable. Install only one RTX Encore proxy copy.
 4. Start the game. The first lines of `rtx-encore-logs\rtx-encore.log` (or `rtx-encore-<number>.log`) show the test
-   build's version, for example `1.0.0-beta.2+issue13-no-menu`.
+   build's version, for example `1.0.0-beta.2+issue13-factory-upgrade-r1`.
 5. Send back the whole `rtx-encore-logs` folder from that session, as the issue's folder asks.
