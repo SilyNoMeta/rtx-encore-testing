@@ -1,26 +1,23 @@
 # Issue #13: Starfield crash when turning Frame Generation on
 
-[Issue #13](https://github.com/SilyNoMeta/rtx-encore/issues/13). Two builds of the same code, to compare:
+[Issue #13](https://github.com/SilyNoMeta/rtx-encore/issues/13). One build to test:
 
 | Build | What differs from 1.0.0-beta.2 |
 | :--- | :--- |
-| `rtx-encore-issue13-no-menu.zip` | The in-game menu is left out, as when the file is named `d3d12.dll`. Settings are still read from `rtx-encore.jsonc`. |
-| `rtx-encore-issue13-diagnostics.zip` | The full mod with the menu. |
+| `rtx-encore-issue13-fix-r1.zip` | The fix: when the game hands its DXGI factory to Streamline (`slUpgradeInterface`), Streamline now receives the real DXGI factory instead of RTX Encore's wrapper, which DLSS Frame Generation then used as if it were DXGI's own object. The menu is included. |
 
-Both builds log extra lines each time the game creates its swap chain, and release the game's back buffers held by
-the FPS/multiplier overlay before a new swap chain is created for the same window.
+The earlier `diagnostics` and `no-menu` builds are superseded and were removed from this folder.
 
 ## What to test
 
-Use `version.dll` from each zip, with BetterConsole and your other mods as usual.
+Use `version.dll` from the zip, with BetterConsole, the Steam overlay and your other mods as usual.
 
-1. **`no-menu`:** start the game and turn Frame Generation on (or load with it already on). Does it still crash?
-   The log says `disabled by build` for the menu.
-2. **`diagnostics`:** do the same. Does it still crash?
+1. Start the game with Frame Generation **on** (it stayed on after the `no-menu` test). Does the game start and run
+   with Frame Generation, and does the RTX Encore menu open (**Insert**)?
+2. In the game's settings, turn Frame Generation **off**, then **on** again. Does the game survive both changes?
 
-In both cases, send the `rtx-encore-logs` folder, crash or not: the new lines start with `[SWAPCHAIN]` and, in
-`diagnostics` only, `MFG_PROXY_UI swapchain proxy`.
+Send back the whole `rtx-encore-logs` folder from that session, whether it crashes or not. The new line to look for
+starts with `MFG_PROXY_UI interface upgrade`.
 
-Then put your usual file back (`d3d12.dll` works in the meantime).
-
-`BUILD.txt` names the commit and the CI run of these builds, and `SHA256SUMS` their checksums.
+`BUILD.txt` names the commit and the CI run of this build, and `SHA256SUMS` its checksum. The first lines of the log
+show the version `1.0.0-beta.2+issue13-fix-r1`.
