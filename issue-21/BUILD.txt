@@ -1,0 +1,15 @@
+version=1.0.0-beta.3+issue21-reflex-r1
+source_commit=870bac23dfa144e789db47fd7d8e60e27334ddf9
+ci_run=38116038847
+ci_platform=windows-2022,MSVC-2022,x64,Release
+NR_OPEN=ON
+configuration=existing-user-config-preserved; verbose-runtime-support-profile-included
+scope=Starfield-shutdown-candidate; Reflex-2.10-through-2.14.1; explicit-source-cap-suggestion
+Reflex_2.13=synthetic-contract-test-only; no-public-SDK-verification
+in_game_validation=pending
+validation=Windows-build-and-22-automated-tests-passed; official-Reflex-2.12-admission-tested-without-GPU-calls
+DLL_name=rtx-encore.dll
+DLL_bytes=93287424
+DLL_sha256=8e845022fe544db205079c6d17f068bdb020da9b92e46efbfaf686b25f5c44ea
+Streamline_headers=v2.12.0
+Vulkan_headers=v1.4.363
