@@ -1,0 +1,2 @@
+Built locally on the maintainer's PC from private commit c76d5e0 (branch fix/outlaws-launch-compat, on 1.0.0-rc.3), Release, no CI run
+version.dll in the zip: SHA-256 87669b3e2d5e87cec873f4fb2dca4f041dc6aa5b4e4d0247d2cfcbd4ab5e1cb5, 1.0.0-rc.3+issue33-compat

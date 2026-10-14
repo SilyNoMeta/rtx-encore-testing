@@ -9,6 +9,7 @@ releases at [SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore/rel
 | Folder | For | Builds |
 | :--- | :--- | :--- |
 | [`issue-13`](issue-13) | [Starfield crash when turning Frame Generation on](https://github.com/SilyNoMeta/rtx-encore/issues/13) | `diagnostics`, `no-menu` |
+| [`issue-33`](issue-33) | [Star Wars Outlaws crashes on launch](https://github.com/SilyNoMeta/rtx-encore/issues/33) | `compat` (with three `rtx-encore.compat` choices) |
 
 ## Installing a test build
 
