@@ -1,0 +1,3 @@
+Built locally on the maintainer's PC from private commit b33bc00 (branch feat/outlaws-swapchain-trace, on main 5afab2a), Release, no CI run
+version.dll in the zip: SHA-256 eee761fd6225a87c26e2f825f09c38dbd53974e9d95fc72e0a023c21743f8fec, 1.0.0-rc.3+issue33-trace
+The three test configurations were started on the Star Wars Outlaws demo (Ubisoft Connect) for 75 seconds each; the crash records and the minidump were checked with a local program that faults in its own code.
