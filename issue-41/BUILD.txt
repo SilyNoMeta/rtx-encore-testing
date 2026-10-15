@@ -1,0 +1,4 @@
+Same zip as issue-33 (SHA-256 9d54cfc96ccfaa4504511fdf9972d79daff384703027c2b5899c6a4f894ed2cc), not rebuilt
+Built locally on the maintainer's PC from private commit b8280e5 (branch fix/outlaws-launch-compat, on 1.0.0-rc.3), Release, no CI run
+version.dll in the zip: SHA-256 c135167371b04b4551befe6ed0a6016fa8f6a43decbb7b90aef037a3fc35dddd, 1.0.0-rc.3+issue33-isolate
+Not run on Forza Horizon 6 before publication; the tests for issue 41 are 01-control, 02-menu-off, 01-control without RivaTuner, and 07-all-off.
