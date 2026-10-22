@@ -4,8 +4,12 @@
 RTX 20 cards, I need to know whether the NVIDIA driver itself gets far enough on an RTX 20. This build checks only
 that. **It does not generate frames**: no extra FPS is expected. One launch of one game is enough.
 
-The build is `1.2.0+issue53-sm75diag`. It is RTX Encore 1.2.0 plus this diagnostic, which stays off unless you turn
+The build is `1.2.0+issue53-sm75diag2`. It is RTX Encore 1.2.0 plus this diagnostic, which stays off unless you turn
 it on below.
+
+This corrects a bug in the first diagnostic build, which could ignore the diagnostic setting at startup.
+If you tested the earlier build, please replace it and repeat the test. Those earlier logs do not decide whether
+Smooth Motion can run on RTX 20. The included settings already enable the diagnostic.
 
 ## What you need
 
@@ -50,7 +54,10 @@ In the issue:
 
 1. Your card model and the game you used.
 2. What happened: the game ran normally, stuttered, showed a black screen, froze or crashed (and when).
-3. The whole `rtx-encore-logs` folder, zipped.
+3. The whole `rtx-encore-logs` folder, zipped, and the `rtx-encore.jsonc` used for the test.
+
+The new log should begin with version `1.2.0+issue53-sm75diag2`. If it still shows the older version,
+check that the old RTX Encore DLL was replaced in the correct game folder.
 
 Then delete the test files and put your own `rtx-encore.jsonc` and DLL back.
 
