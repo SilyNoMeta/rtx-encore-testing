@@ -1,0 +1,4 @@
+Built locally on the maintainer's PC from private commit f7fa0d49 (branch feat/smooth-motion-turing, on 1.2.0), Release with Open NR, no CI run
+version.dll in the zip: SHA-256 d0babe22b951161e2522ff1d1ac1d47ddb109599f563372947455eb60d4fe395, 1.2.0+issue53-sm75diag
+rtx-encore.jsonc in the zip: the 1.2.0 defaults with smoothMotionEnabled and smoothMotionTuringDiagnostic set to true
+Not run on an RTX 20 card before publication (the maintainer has none); checked on the build PC: Release build, ctest (CI set, smooth_*, addon_config_preservation) passed

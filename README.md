@@ -12,6 +12,7 @@ releases at [SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore/rel
 | [`issue-33`](issue-33) | [Star Wars Outlaws crashes on launch](https://github.com/SilyNoMeta/rtx-encore/issues/33) | `isolate` (22 test configurations, one round) |
 | [`issue-33-trace`](issue-33-trace) | [Star Wars Outlaws crashes on launch](https://github.com/SilyNoMeta/rtx-encore/issues/33) | `trace` (3 test configurations) |
 | [`issue-41`](issue-41) | [Forza Horizon 6 closes after its startup logos](https://github.com/SilyNoMeta/rtx-encore/issues/41) | `isolate` from issue 33 (3 to 4 launches) |
+| [`issue-53`](issue-53) | [Smooth Motion on RTX 20 cards](https://github.com/SilyNoMeta/rtx-encore/issues/53) | `sm75diag` (driver diagnostic, one launch, no frame generation) |
 
 ## Installing a test build
 
