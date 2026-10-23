@@ -1,0 +1,15 @@
+RTX Encore 1.2.0+sm75-p4.1, issue #53 experimental RTX 20 test 1
+Built locally, Release x64 with Open NR; no CI run.
+Source revision: 2de0c817d899434d868d1ec34c21a4e02b25af40
+This ZIP reuses the exact DLL tested locally; it is not a new rebuild.
+version.dll: 108283392 bytes
+SHA-256: edbe79e033cd272c0199ad611ccd43a3a967e1ecb8f751ef27224e055e25ca7b
+rtx-encore.jsonc SHA-256: 6539501e14b074bd8c7c7f7e6b310b012437bca526179182618ac4aa2d229471
+Settings: Smooth Motion enabled, D3D12, experimental RTX 20 enabled;
+old diagnostic, Ampere emulation and research capture disabled.
+Validation: 58/58 CPU checks passed; same kernel sources exercised on a
+RTX 3070 Ti Laptop with NVIDIA 621.01 in Manor Lords and SurrounDead.
+Owner reports correct image/fluidity; SurrounDead ran more than five minutes.
+Not yet validated on a physical RTX 20. Performance remains experimental;
+local Ampere tests do not establish RTX 20 performance or compatibility.
+No NVIDIA driver, extracted kernel, captured tensor, log, source or PDB included.
