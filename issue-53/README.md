@@ -1,6 +1,10 @@
-**Latest test:** [experimental RTX 20 Smooth Motion, 1.2.0+sm75-p4.1](sm75-test1/README.md).
+**New comparison test:** [test 2, 1.2.0+sm75-opt-rsrc1](sm75-test2/README.md).
+Please compare it with [test 1, 1.2.0+sm75-p4.1](sm75-test1/README.md)
+and report performance and your impressions using the comparison instructions.
+
+**First frame-generation test:** [experimental RTX 20 Smooth Motion, 1.2.0+sm75-p4.1](sm75-test1/README.md).
 That test attempts frame generation. The earlier driver-only diagnostic below is
-retained for reference; use the new test's ZIP and settings for a new report.
+retained for reference; use the comparison instructions above for a new report.
 
 # Issue #53: Smooth Motion on RTX 20, driver diagnostic
 

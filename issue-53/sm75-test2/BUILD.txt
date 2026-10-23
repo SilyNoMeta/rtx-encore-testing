@@ -1,0 +1,14 @@
+RTX Encore 1.2.0+sm75-opt-rsrc1, issue #53 experimental RTX 20 test 2
+Local Release x64 build with Open NR; no CI run.
+Source revision: 416d1e340a28a32643cc49f0e964da6d63f58939
+Exact existing local DLL reused; no rebuild for packaging.
+version.dll: 108269056 bytes
+DLL SHA-256: ebbfca5cb87d9ac84d0ee3bc7c6f4d3126a2a33b6bc9540be78247ba048816a5
+Configuration SHA-256: 6539501e14b074bd8c7c7f7e6b310b012437bca526179182618ac4aa2d229471
+Same configuration and third-party notices as test 1.
+Smooth Motion enabled, D3D12, experimental RTX 20 enabled.
+Diagnostic, Ampere emulation and research capture disabled.
+58/58 CPU checks passed. Local controlled GPU comparisons passed on Ampere.
+This optimized binary has not yet completed an in-game validation.
+No physical RTX 20 validation; performance gains on RTX 20 are unmeasured.
+No driver, extracted NVIDIA files, source, PDB or private logs included.
