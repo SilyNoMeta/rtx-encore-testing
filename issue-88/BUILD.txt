@@ -1,0 +1,15 @@
+RTX Encore 1.4.3+issue88-nr-submission-142
+Issue: https://github.com/SilyNoMeta/rtx-encore/issues/88
+Local fresh Release x64 build; no CI run.
+Source revision: c3732d25836a4fe4d21e4676ff83b1c7a8a1bf8d
+Base: v1.4.3 (587f7871)
+Toolchain: Visual Studio 18 2026, MSVC 19.51, Windows SDK 10.0.26100.0.
+All diagnostics kept at the base build defaults; existing user settings are preserved.
+Validation: build succeeded; 199/199 selected local automated tests passed (CPU/WARP checks).
+Binary x64 PE identity and embedded version verified. ZIP integrity and exact DLL bytes verified.
+version.dll: 36318208 bytes
+version.dll SHA-256: b5ce4fa97243790ee1558684414096a597602fd1dd9cc236c25cbe5d37d72cdd
+rtx-encore.dll: 36565504 bytes
+rtx-encore.dll SHA-256: 95fb4ef608c27c213f94f0b76a016d538cb8689794f06f2f296a65e4cbeedd51
+No in-game validation of this build; this is not a confirmed fix.
+No source, PDB, private logs, driver files or settings included.
