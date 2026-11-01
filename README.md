@@ -14,6 +14,7 @@ releases at [SilyNoMeta/rtx-encore](https://github.com/SilyNoMeta/rtx-encore/rel
 | [`issue-41`](issue-41) | [Forza Horizon 6 closes after its startup logos](https://github.com/SilyNoMeta/rtx-encore/issues/41) | `isolate` from issue 33 (3 to 4 launches) |
 | [`issue-53`](issue-53) | [Smooth Motion on RTX 20 cards](https://github.com/SilyNoMeta/rtx-encore/issues/53) | `sm75diag` (driver diagnostic, one launch, no frame generation) |
 | [`issue-88`](issue-88) | [The Witcher 3 shadows flickering after fast travel](https://github.com/SilyNoMeta/rtx-encore/issues/88) | `1.4.3+issue88-nr-submission-142` (NR comparison build) |
+| [`issue-94`](issue-94) | [Microsoft Flight Simulator 2024: the menu never opens](https://github.com/SilyNoMeta/rtx-encore/issues/94) | `1.5.2+issue94` (menu fix candidate, one launch with the menu) |
 
 ## Installing a test build
 

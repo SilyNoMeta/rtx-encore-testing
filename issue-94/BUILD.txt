@@ -1,0 +1,15 @@
+RTX Encore 1.5.2+issue94
+Issue: https://github.com/SilyNoMeta/rtx-encore/issues/94
+Local fresh Release x64 build; no CI run.
+Source revision: 6571dfc9955b13599b368ce35fc2230cc8a92886 (branch fix/issue94-msfs2024-menu)
+Base: v1.5.2 (5b2f170a)
+Toolchain: Visual Studio 18 2026, MSVC 19.51, Windows SDK 10.0.26100.0.
+All diagnostics kept at the base build defaults; existing user settings are preserved.
+Validation: build succeeded; 5 selected local automated tests passed (compat switches, menu CPU checks).
+Binary x64 PE identity and embedded version verified. ZIP integrity and exact DLL bytes verified.
+version.dll: 37411840 bytes
+version.dll SHA-256: d71ed8ea3b180a5717469207998dd4ad8315e93ca881b5c326c3515ac22c1cbf
+rtx-encore.dll: 37659136 bytes
+rtx-encore.dll SHA-256: 7af23758927051ed81090d9448072ce472c7e857df8687308d3f3dd42dd65aac
+No in-game validation of this build; this is not a confirmed fix.
+No source, PDB, private logs, driver files or settings included.
