@@ -1,0 +1,9 @@
+Version: 2.0.1+xefg-provider-present
+Build: local Windows x64 Release; no CI run
+Source commit: 805b8f3989e841b385a9ea896a7f1ae1edd1f81f
+Integrated main commit: d20adbd528e477450e622c496f61e10347543ce0
+Binary compiled before the source commit; compiled sources match that commit.
+DLL: dxgi.dll
+Size: 42502656 bytes
+SHA-256: d64f01cf9490be71e2e5b62c339bf34eaf408d19e98b396d3babc05051f56460
+Validation: Release build; 9 focused CPU checks passed. Final in-game confirmation pending.

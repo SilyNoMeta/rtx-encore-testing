@@ -1,0 +1,2 @@
+c9c11acf2767acab1973cde9926057d6ade401fb280fcc279a3bce80e236c5f3  RTX-Encore-2.0.1-xefg-provider-present.zip
+d64f01cf9490be71e2e5b62c339bf34eaf408d19e98b396d3babc05051f56460  dxgi.dll (inside ZIP)
